@@ -1,0 +1,54 @@
+jsx (javascript syntext extension ) which is used for insertion of dynamic javascript
+
+{} this is used to write the javascript and show on html in  react
+
+<> (wrapper like div or <>) is neaded in the reac return 
+
+with an arrow functions imports should be 
+
+import {} from 'path component';
+
+consdition? true:false
+
+defaultProps is the property of the prop-types we can not change its name accoring to our wish  
+
+otherwise direct funcitonal component like
+import Header from 'comoponent path'
+state is the place where we store in value 
+in the varible update the we got variable updated but not rerenderd in the react so we have to use state to rerender the component
+
+porps is basically parameters in 
+
+we can't use the states in the class component
+
+to pass html in the class comoponents props we have to use the this.props.children
+
+to pass html in the functional comoponents props we have to use the this.children
+
+Life cycle method in react  component phases
+1.mount (componentDidMount) 2.update (componentDidUpdate) 3.unmount(componentWillUnmonut)
+
+constructor is also an life cycle method
+
+render runs three times 
+when the state is updated,props is updated,comoponent is created
+
+hooks is the method which is useful for the special features which can be used in the functional component like state,life cycle
+
+hooks madad karse mari class component ni ketlik special functionality ne access karava mate.
+
+in the import when we write the use after that all are that hooks
+
+useEffect is used when the data should be updated on the props and state. Aa tyare vapray jyare mara koi particular update par mare koi particular vastu karavi hoy ne tyapre vaparavama aave chai.
+
+pure componetn stops the component rerendering repeatedly.
+
+usememo is similar to the pure comoponent whcih helps to stop the unwanted rerendering of the comoponent.
+
+those component which is handled by the react state is called the controlled component in react
+
+those componets which are note controllesd by the state. or in the other words those components which is directly controlled by the dom or jquery or the javascript.
+
+higher order component are those component whcih takes component as an input and gives component as an outout.
+
+even minor part of unctrolled is present in the component than it is called unctrolled component even if all the other fields are controlled still.
